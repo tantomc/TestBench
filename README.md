@@ -1,5 +1,5 @@
 ### Setup
-use python3 with "./requirements.txt" <br>
+use python3.13 with "./requirements.txt" <br>
 install requirements with:
 
 >pip install -r requirements.txt
