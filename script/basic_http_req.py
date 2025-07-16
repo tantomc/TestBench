@@ -94,6 +94,7 @@ class RequestPersist:
             elif str(self.user_conf['message']) == 'GET':
                 self.latest_request = self.user_conf['session'].get(
                     custom_url,
+                    params=self.user_conf['payload'],
                     headers=dict(custom_headers),
                     )
             print("request responded with content:\n " + str(self.latest_request.text))
