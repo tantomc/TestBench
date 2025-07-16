@@ -1,3 +1,9 @@
+### user added
+OpenDocMill-1.0-py2.7/
+geckodriver.log
+.gitignore
+*/env
+requirements.txt.old
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
